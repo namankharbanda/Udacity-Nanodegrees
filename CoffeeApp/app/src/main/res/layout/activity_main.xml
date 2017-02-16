@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.android.coffeeapp.MainActivity">
+<ImageView
+    android:scaleType="centerCrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/coffee1" />
+    <TextView
+        android:id="@+id/espresso"
+        android:layout_marginTop="16dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMPRESSO ESPRESSO!"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/desc"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/espresso"
+        android:textColor="@android:color/white"
+        android:text="Do you feel depresso without your espresso!?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/desc1"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="How about heading to the 'Impresso Espresso'?"
+        android:layout_below="@id/desc"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/desc2"
+        android:fontFamily="cursive"
+        android:layout_below="@id/desc1"
+        android:layout_centerHorizontal="true"
+        android:text="Celebrating 5 Year Anniversary"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:id="@+id/visit"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="Visit us now at:"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/desc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:id="@+id/name"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/visit"
+        android:text="IMPRESSO ESPRESSO"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:id="@+id/add"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="S.C.O 25"
+        android:layout_below="@id/name"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:id="@+id/add1"
+        android:layout_marginTop="5dp"
+        android:text="Sector-35/C"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:text="CHANDIGARH"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/add1"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mail"
+        android:textSize="12sp"
+        android:text="www.impresso.com/subscribe"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:text="Subscribe for offers at:-"
+        android:layout_above="@id/mail"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/contact"
+        android:textColor="@android:color/white"
+        android:text="08455165221,222"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:text="Contact Us at:-"
+        android:layout_above="@id/contact"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
